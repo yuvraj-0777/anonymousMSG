@@ -13,7 +13,7 @@ import { signIn } from "next-auth/react"
 
 
 
-const page = () => {
+const SignInForm = () => {
 
   const { toast } = useToast()
   const router = useRouter()
@@ -113,4 +113,4 @@ const page = () => {
   )
 }
 
-export default page
+export default SignInForm
