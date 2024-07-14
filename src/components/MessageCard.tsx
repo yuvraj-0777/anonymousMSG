@@ -40,7 +40,7 @@ const MessageCard = ({ message, onMessageDelete}: messageCardProps) => {
         toast({
             title: res.data.message
         })
-        onMessageDelete(message._id)
+        onMessageDelete(String(message._id))
     }
   return (
     <Card>
